@@ -4,6 +4,6 @@ export default {
     dialect: 'postgresql',
   
     dbCredentials: {
-      url:'postgresql://neondb_owner:yFxizv6VkWe4@ep-old-firefly-a5uqadv2.us-east-2.aws.neon.tech/Expense_tracker?sslmode=require',
+      url:NEXT_PUBLIC_DATABASE_URL,
     }
   }  ;
